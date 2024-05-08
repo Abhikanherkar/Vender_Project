@@ -50,7 +50,7 @@ def save_performence(sender, instance, created, **kwargs):
             historical_performancce_instance.on_time_delivery_rate = on_time_delivery_rate
             historical_performancce_instance.save()
 
-        
+    vender.save()
 
 
 
